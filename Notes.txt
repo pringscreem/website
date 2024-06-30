@@ -1,2 +1,3 @@
 June 29, 2024
     -Email form example from ChatGPT opens the desktop email client.
+    -It looks like the Github website doesn't have the functionality of an actual server.
