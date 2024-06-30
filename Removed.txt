@@ -45,3 +45,45 @@ From Contact.html:
           <button class="contact__button" type="submit">Send</button>
           <button class="contact__button" type="reset">Reset</button>
         </form>
+
+
+
+        Chat GPT Example:
+
+    <script>
+      function submitForm() {
+        // Construct mailto URL
+        var name = document.getElementById("name").value;
+        var email = document.getElementById("email").value;
+        var message = document.getElementById("message").value;
+
+        var subject = "Contact Form Submission";
+        var body =
+          "Name: " + name + "\nEmail: " + email + "\n\nMessage:\n" + message;
+
+        var mailtoLink =
+          "mailto:your_email@example.com" +
+          "?subject=" +
+          encodeURIComponent(subject) +
+          "&body=" +
+          encodeURIComponent(body);
+
+        // Open the mail client
+        window.open(mailtoLink);
+      }
+    </script> 
+
+
+             <form onsubmit="submitForm(); return false;">
+          <label for="name">Name:</label><br />
+          <input type="text" id="name" name="name" required /><br /><br />
+
+          <label for="email">Email:</label><br />
+          <input type="email" id="email" name="email" required /><br /><br />
+
+          <label for="message">Message:</label><br />
+          <textarea id="message" name="message" rows="4" required></textarea
+          ><br /><br />
+
+          <input type="submit" value="Submit" />
+        </form>
