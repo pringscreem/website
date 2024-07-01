@@ -4,6 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Conway's Game of Life</title>
+    
+    <meta name="author" content="Dave Gray" />
+    <meta
+      name="description"
+      content="The official website for The Little Taco Shop"
+    />
+    <title>pringscreem web</title>
+    <!-- <link rel="icon" href="favicon.ico" type="image/x-icon" /> -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🛠️</text></svg>">
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/main.js" defer></script>
+
     <style>
         body {
             display: flex;
@@ -70,36 +82,38 @@
         </li>
       </ul>
     </nav>
-  </header>
-  <article style="color:white;" id="LifeGPT_explanation">
-    <h2>Conway's Game of Life</h2>
-      <h3>Chat GPT Prompts:</h3>
-        <p>
-          <ol>
-            <li>Use C++ to write Conway's Game of Life.</li>
-            <li>Use JavaScript to write Conway's Game of Life.</li>
-            <li>Add the ability to pause the game by pressing spacebar.</li>
-            <li>Add the ability to click on cells to toggle them on or off.</li>
-            <li>Add a button just below the grid that will pause the game if the user clicks on it.</li>
-          </ol>
-        </p>
-        <p>
-            <h3>Controls:</h3>
-            <ol>
-                <li>Click the pause button to stop/start the simulation.</li>
-                <li>Click the squares of the grid to toggle that cell alive/dead.</li>
-            </ol>
-        </p>
-        <h3>Modifications:</h3>
-        <ol>
-            <li>Additional line of starting cells added to the middle.</li>
-            <li>Moved pause button above the grid.</li>
-        </ol>
-  </article>
-
-
-
+</header>
+    
+    
+    
 <body>
+
+<article style="color:white; text-align: center;" id="LifeGPT_explanation">
+  <h2>Conway's Game of Life</h2>
+    <h3>Chat GPT Prompts:</h3>
+      <p>
+        <ol style="text-align: left; padding: 2rem;">
+          <li>Use C++ to write Conway's Game of Life.</li>
+          <li>Use JavaScript to write Conway's Game of Life.</li>
+          <li>Add the ability to pause the game by pressing spacebar.</li>
+          <li>Add the ability to click on cells to toggle them on or off.</li>
+          <li>Add a button just below the grid that will pause the game if the user clicks on it.</li>
+        </ol>
+      </p>
+      <p>
+          <h3>Controls:</h3>
+          <ol>
+              <li>Click the pause button to stop/start the simulation.</li>
+              <li>Click the squares of the grid to toggle that cell alive/dead.</li>
+          </ol>
+      </p>
+      <h3>Modifications:</h3>
+      <ol>
+          <li>Additional line of starting cells added to the middle.</li>
+          <li>Moved pause button above the grid.</li>
+      </ol>
+</article>
+
     <button id="toggleButton">Pause</button>
     <div id="grid"></div>
     <script>
