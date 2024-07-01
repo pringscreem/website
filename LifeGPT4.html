@@ -16,8 +16,8 @@
         }
         #grid {
             display: grid;
-            grid-template-columns: repeat(50, 10px); 
-            grid-template-rows: repeat(50, 10px);
+            grid-template-columns: repeat(40, 10px); 
+            grid-template-rows: repeat(40, 10px);
             gap: 1px;
         }
         .cell {
@@ -99,8 +99,8 @@
     <div id="grid"></div>
     <button id="toggleButton">Pause</button>
     <script>
-        const rows = 50;
-        const cols = 50;
+        const rows = 40;
+        const cols = 40;
         let grid = Array.from({ length: rows }, () => Array(cols).fill(0));
         let isRunning = true;
         let interval;
