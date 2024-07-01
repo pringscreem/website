@@ -190,6 +190,13 @@
         grid[3][2] = 1;
         grid[3][3] = 1;
 
+
+        //Initialize with a line in the middle
+        for(let i = 10; i < 20; i++)
+        {
+            grid[i][20] = 1;
+        }
+
         interval = setInterval(run, 100);
     </script>
 </body>
