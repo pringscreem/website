@@ -1,8 +1,0 @@
-June 29, 2024
-    -Email form example from ChatGPT opens the desktop email client.
-    -It looks like the Github website doesn't have the functionality of an actual server.
-
-June 30, 2024
-    -ChatGPT wrote Conway's Game of Life perfectly for the C++ console and then JavaScript with a single command for each.
-    -It added pausing with spacebar and toggling cells with mouse clicks perfectly with a single command each.
-    -Adding LifeGPT.html to the website.
